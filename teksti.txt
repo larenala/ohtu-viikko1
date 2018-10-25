@@ -1,0 +1,14 @@
+mene edellisessä tehtävässä luotuun repositorion klooniin (eli komennon git clone luomaan hakemistoon)
+lisää ja committaa repositorioon kaksi tiedostoa ja kaksi hakemistoa, joiden sisällä on tiedostoja
+muista hyödyllinen komento git status
+muuta ainakin kahden tiedoston sisältöä ja committaa muutokset repositorioon
+tee .gitignore-tiedosto, jossa määrittelet, että repositorion juurihakemistossa olevat tiedostot, joiden pääte on tmp ja hakemisto jonka nimi on build ignoroidaan
+huomaa, että ainoastaan hakemisto nimeltä build pitää ignoroida, tiedostot joiden nimi alkaa sanalla build, esim tehtävässä 7 lisättävä build.gradle eivät saa ignoroitua!
+lisää tmp-päätteisiä tiedostoja hakemistoon ja varmista että git jättää ne huomioimatta
+saat asian tarkastettua komennolla git status
+lisää myös hakemisto nimeltä build ja hakemiston sisälle joku tiedosto. Varmista että build sisältöineen ei mene versionhallinnan alaisuuteen
+lisää ja commitoi .gitignore repositorioosi
+tee muutos johonkin tiedostoon. Älä lisää tiedostoa "staging"-alueelle
+peru muutos (git status -komento antaa vihjeen miten tämä tapahtuu)
+tee muutos ja lisää tiedosto "staging"-alueelle
+peru muutos (git status -komento antaa vihjeen miten tämä tapahtuu)≈
