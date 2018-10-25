@@ -1,3 +1,5 @@
+Hieno otsikko
+
 mene edellisessä tehtävässä luotuun repositorion klooniin (eli komennon git clone luomaan hakemistoon)
 lisää ja committaa repositorioon kaksi tiedostoa ja kaksi hakemistoa, joiden sisällä on tiedostoja
 muista hyödyllinen komento git status
