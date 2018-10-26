@@ -30,6 +30,8 @@ public class VarastoTest {
         assertEquals(10, varasto.getTilavuus(), vertailuTarkkuus);
     }
 
+   
+            
     @Test
     public void lisaysLisaaSaldoa() {
         varasto.lisaaVarastoon(8);
@@ -64,5 +66,27 @@ public class VarastoTest {
         // varastossa pitäisi olla tilaa 10 - 8 + 2 eli 4
         assertEquals(4, varasto.paljonkoMahtuu(), vertailuTarkkuus);
     }
+    
+    @Before 
+    public void setup() {
+        varasto=new Varasto(10,10);
+    }
+    
+    @Test 
+    public void toinenKonstruktoriLuoSaldon() {
+        assertEquals(10, varasto.getSaldo(), vertailuTarkkuus);
+    }
+    
+    @Test 
+    public void toinenKonstruktoriTilavuus() {
+        assertEquals(10, varasto.getTilavuus(), vertailuTarkkuus);
+    };
+    
+    @Test public void toStringPalauttaaStringin ()  {
+        assertEquals("saldo = 10, vielä tilaa 10", varasto.toString());
+    }
 
+    /*@Test public void () {
+        assertEquals(vertailuTarkkuus);
+    }*/
 }
