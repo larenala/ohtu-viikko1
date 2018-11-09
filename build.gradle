@@ -50,3 +50,5 @@ afterEvaluate {
         })
     }
 }
+
+apply plugin: "checkstyle"
